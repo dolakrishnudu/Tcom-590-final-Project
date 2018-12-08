@@ -4,7 +4,7 @@ Aim:- To configure interfaces and Routing Protocol using Ansible
 1.All devices below are running Cumulus VX
 2.by default username:- cumulus,Password:- CumulusLinux!
 3.All the devices have 4 interfaces 
-4.Management server has Dhcp configured which will be used to provide Ip's to eth0 and eth1 devices
+4.Management server has Dhcp configured which will be used to provide ip's to eth0
 5.eth0 is configured with dhcp by default
 5.Make sure you are able to ssh to Switch 1 and 2 before you run ansible.
 6.we will use ansible playbook to push interface, Routing Config and Restart services in the switches 
